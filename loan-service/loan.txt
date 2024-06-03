@@ -1,0 +1,6 @@
+{
+    "customerName": "Amogh",
+    "customerId": 99,
+    "amount": 1999,
+    "currency": "INR"
+}
