@@ -31,3 +31,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Ignore Docker container files for myql and tempo
+mysql-data/
+docker/tempo/
