@@ -4,19 +4,17 @@
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   	<modelVersion>4.0.0</modelVersion>
 
-  	<!-- Inherit defaults from Spring Boot -->
-   	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.3.0</version>  <!-- lookup parent from repository -->
-		<relativePath />
+	<parent>
+		<groupId>com.kulkeez</groupId>
+		<artifactId>microservices-observability</artifactId>
+		<version>1.0</version>
 	</parent>
 	  	
   	<groupId>com.kulkeez</groupId>
   	<artifactId>random-name</artifactId>
-  	<version>0.0.1</version>
+  	<version>1.0</version>
   	
-  	<name>RandomName</name>
+  	<name>random-name-service</name>
 	<description>Random Name Generator</description>
   	<inceptionYear>2020</inceptionYear>
 	

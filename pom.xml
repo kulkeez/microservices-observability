@@ -2,25 +2,49 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+
+    <!-- Inherit defaults from Spring Boot -->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>3.3.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+
     <groupId>com.kulkeez</groupId>
     <artifactId>microservices-observability</artifactId>
     <version>1.0</version>
     <name>microservices-observability</name>
     <description>Exploring Microservices Observability</description>
     <packaging>pom</packaging>
+
+   	<inceptionYear>2020</inceptionYear>
+	
+	<developers>
+		<developer>
+      		<id>kulkeez</id>
+      		<name>Vikram Kulkarni</name>
+      		<email>kulkeez@yahoo.com</email>
+      		<url>http://www.hpe.com</url>
+			<roles>
+				<role>Programmer</role>
+			</roles>
+			<timezone>+5</timezone>  
+		</developer>
+  	</developers>
+
     <properties>
+ 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>17</java.version>
     </properties>
+
     <modules>
         <module>loan-service</module>
         <module>fraud-detection-service</module>
+        <module>random-name-service</module>
     </modules>
+    
     <build>
         <plugins>
             <plugin>
