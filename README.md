@@ -8,18 +8,25 @@ To run the project, you need to have Docker and Docker Compose installed. Then, 
 
 ```docker compose up -d```
 
-Run Loan Service Application
+### Run Loan Service Application
 
 ```cd loan-service```
 
 ```mvn spring-boot:run```
 
-Run Fraud Detection Service Application
+### Run Fraud Detection Service Application
 
 ```cd fraud-detection-service```
 
 ```mvn spring-boot:run```
 
+### Run Random Name Generation Service Application
+
+```cd random-name-service```
+
+```mvn spring-boot:run```
+
+To access the service, invoke http://localhost:8082/random-name
 
 ## Accessing the services
 1. Grafana: http://localhost:3000
