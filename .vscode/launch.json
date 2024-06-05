@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "FraudDetectionServiceApplication",
+            "request": "launch",
+            "mainClass": "com.kulkeez.fraudetect.FraudDetectionServiceApplication",
+            "projectName": "fraud-detection-service"
+        },
+        {
+            "type": "java",
+            "name": "LoanServiceApplication",
+            "request": "launch",
+            "mainClass": "com.kulkeez.loans.LoanServiceApplication",
+            "projectName": "loan-service"
+        },
+        {
+            "type": "java",
+            "name": "RandomNameApplication",
+            "request": "launch",
+            "mainClass": "com.kulkeez.randomname.RandomNameApplication",
+            "projectName": "random-name"
+        },
+        {
+            "type": "java",
+            "name": "Dictionary",
+            "request": "launch",
+            "mainClass": "com.kulkeez.randomname.service.Dictionary",
+            "projectName": "random-name"
+        },
+        {
+            "type": "java",
+            "name": "RandomNameService",
+            "request": "launch",
+            "mainClass": "com.kulkeez.randomname.service.RandomNameService",
+            "projectName": "random-name"
+        }
+    ]
+}
