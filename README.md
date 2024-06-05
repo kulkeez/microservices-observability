@@ -1,6 +1,6 @@
 # Spring Boot 3 Observability with Grafana Stack
 
-This source code demontrates implementing Observability with the Grafana Stack
+This source code demonstrates implementing Observability with the Grafana Stack
 
 ## Running the project
 
