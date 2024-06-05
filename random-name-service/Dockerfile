@@ -6,7 +6,7 @@ LABEL name="RandomName Generator" \
     build-date="20200314"
 
 # copy Java binary into the container	
-COPY /target/random-name-0.0.1.jar /app.jar
+COPY /target/random-name-1.0.jar /app.jar
 
 # tell the port number the container should expose
 EXPOSE 8080
